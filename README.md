@@ -26,6 +26,14 @@ Training
 
     Trained for 50 epochs
 
+📂 Repository Structure:
+
+    ├── data/                  # Raw anime faces dataset
+    ├── DCGAN/                 # DCGAN implementation
+        ├── samples/               # Generated images per epoch
+        ├── generated_fid_samples/ # Images for FID calculation
+    └── README.md
+
 Links to papers I have used for this project:
 
     DCGAN Paper: https://arxiv.org/abs/1511.06434
