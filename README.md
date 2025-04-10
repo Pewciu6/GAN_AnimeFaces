@@ -1,14 +1,16 @@
 🎨 Anime Faces Generation with GANs
 
-Generating high-quality anime faces using Deep Convolutional GAN (DCGAN) and Wasserstein GAN with Gradient Penalty (WGAN-GP)
+Generating high-quality anime faces using Deep Convolutional GAN (DCGAN), Wasserstein GAN (WGAN), Wasserstein GAN with Gradient Penalty (WGAN-GP)
 
 📝 Project Overview
 
-This project explores two GAN architectures for generating anime faces:
+This project explores three GAN architectures for generating anime faces:
 
     DCGAN (Baseline)
 
-    WGAN-GP (Improved stability + better results)
+    WGAN ( Improved stability + overall better / faster learning )
+
+    WGAN-GP # TO DO
 
 Key features:
 
@@ -32,10 +34,15 @@ Training
     ├── DCGAN/                 # DCGAN implementation
         ├── samples/               # Generated images per epoch
         ├── generated_fid_samples/ # Images for FID calculation
+    ├── WGAN/                 # WGAN implementation
+        ├── samples/               # Generated images per epoch
+        ├── generated_fid_samples/ # Images for FID calculation
     └── README.md
 
 Links to papers I have used for this project:
 
     DCGAN Paper: https://arxiv.org/abs/1511.06434
+
+    WGAN Paper: https://arxiv.org/abs/1701.07875
 
     WGAN-GP Paper: https://arxiv.org/abs/1704.00028
